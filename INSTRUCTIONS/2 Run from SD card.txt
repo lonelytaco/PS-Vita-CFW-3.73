@@ -1,0 +1,71 @@
+What you will need.:
+-PS Vita that is running CFW
+-vitashell
+-autoplugin.vpk
+-Blank micro SD card
+-win32diskimager
+-zzblank.img
+
+This is to run an micro SD card with an adapter in the game card slot.
+
+--On PS Vita--
+-Open Vitashell
+Press Start
+Check SELECT button is set to USB.
+Press O to leave menu.
+-Connect PS Vita to PC.
+Press Select
+
+--On PC--
+Open folder either automatically or from file explorer.
+Copy autoplugin.vpk from the VPK folder to root of PS Vita. 
+
+--On PS Vita--
+Press O.
+-Navigate to ux0.
+At bottom will be the vpk.
+Install autoplugin.vpk.
+Say yes to continue to install on pop up.
+-Press home button and close.
+It will now be in the Live Area.
+
+
+--Back on PC--
+install win32diskimager-1.0.0-install.exe
+Plug the micro SD card in.
+-Run Win32diskimager.
+Check device is the right one for the micro SD.
+Open zzblank.img with the small folder icon under image file.
+Press Write.
+Close.
+
+In file explorer open the micro SD card. It will ask you 
+to format it.
+-Format with full allocated space and FAT32.
+--Reconnect PS Vita by Vitashell like before--
+Copy all of the PS Vita's memory card contents to the SD card.
+(if you can't see all the files you will need to enable 
+view hidden files and untick Hide protected operating system files
+from the options under the view tab)
+Copy to PC aswell for a back up.(optional but recommended)
+-Disconnect PSVita and eject micro SD.
+Place in the adapter and put into PS Vita's Game card slot.
+
+--On PS Vita--
+Run autoplugin.
+-vita plugins
+-Configure plugin for SD2VITA
+Check settings look like this:
+ 
+ MCD(offcial memory card)              uma0(USB Port)
+ INT(internal memory on vita 2k/PSTV)  none(unmounted)
+ GCD(SD2VITA)                          ux0(LiveArea applications)
+ UMA(USB or PSVSD on Vita 3G)          none (unmounted)
+
+Press Δ to save.
+Press X to confirm and again when told it will restart.
+
+‼Remember to always run h-encore2 after a reset/turn off‼
+
+-Open Vitashell
+Your SD card should be listed there.

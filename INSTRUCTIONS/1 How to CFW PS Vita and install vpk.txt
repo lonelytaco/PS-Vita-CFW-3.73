@@ -1,0 +1,57 @@
+What's needed:
+-PS Vita on 3.73
+-Qcma(GET HERE https://github.com/codestation/qcma/releases/download/v0.4.1/Qcma_setup-0.4.1.exe)
+-FinalHE
+
+--Installing CFW--
+-Run Qcma_setup-0.4.1.exe.
+install.
+-Unzip FinalHE_v1.92_win32
+install FinalHE
+Run it.
+-Attach PsVita by USB when FinalHE detects press Start then follow what it says to install 
+h-encore2.
+
+--On PS Vita--
+-Run h-encore2
+-Install HENkaku
+wait for it to complete
+-Download Vitashell
+wait for it to complete
+-Exit.
+Go to Settings
+-HENkaku Settings
+Check if they are not already. 
+--Enable spoofing.
+--Enable Unsafe Homebrew.
+--Enable Version Spoofing.
+Exit back to main area.
+
+Your PSvita is now CFW. You will have to re-run h-encore2 if your PS Vita restarts or if you turn it off.
+
+
+--Installing applications(vpk)--
+-Open Vitashell
+Press Start
+Check SELECT button is set to USB.
+Press O to leave menu.
+-Connect PS Vita to PC.
+Press Select
+
+--On PC--
+Open folder either automatically or from file explorer.
+Copy vpks from VPK folder to root of PS Vita. 
+
+--On PS Vita--
+Press O.
+-Navigate to ux0.
+At bottom will be the vpk/s.
+Install any vpk you have/want to use.
+Say yes to continue to install on pop up.
+-Press home button and close.
+They will now be in the Live Area.
+
+If your PS Vita turns off/Restarts they will give an error until you run h-encore2 again.
+
+
+
