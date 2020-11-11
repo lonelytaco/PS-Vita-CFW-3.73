@@ -1,7 +1,7 @@
 # PS-Vita-CFW-3.73
 Repo for CFW a PS Vita on 3.73
 
-Everything here is what you need to CFW you Vita and expand it's storage.
+Everything here is what you need to CFW your Vita and expand it's storage.
 -unzip all compressed files in the main folder given. Then follow the text documents in 
 Instructions.
 
